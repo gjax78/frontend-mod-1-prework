@@ -19,4 +19,4 @@
   - I would explain it by saying "You know how after you're done playing, you need to put your blocks away? it would be like having a robot friend thats job is to put the blocks away for you. Every time, he picks up the block from the ground and puts it back in the bin and then repeats that until all the blocks are put away."
 
 7. What questions do you still have about Arrays and loops?
-  - I noticed after spending about 10 minutes trying to skip a specific element in an array, you can only skip one at a time using "contine." Is this correct? That would seem impossible if I had an array longer than about 10 items and I'd have to make if/else statments for every element I want to skip. 
+  - I noticed after spending about 10 minutes trying to skip a specific element in an array, you can only skip one at a time using "continue." Is this correct? That would seem impossible if I had an array longer than about 10 items and I'd have to make if/else statements for every element I want to skip.
