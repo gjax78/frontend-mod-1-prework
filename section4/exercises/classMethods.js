@@ -33,22 +33,22 @@ class Burrito {
     this.base = base;
     this.toppings = toppings;
   }
-  changeProtein() {
-    this.protein = "tofu";
+  changeProtein(newProtein) {
+    this.protein = newProtein;
   }
-  addTopping() {
-    this.toppings = this.toppings + ", black olives";
+  addTopping(newToppings) {
+    this.toppings.push(newToppings);
   }
 };
 var firstBurrito = new Burrito("chicken", "rice", ["cheese, guacamole, sour cream"]);
 var secondBurrito = new Burrito("steak", "rice", ["cheese, lettuce, salsa"]);
 var thirdBurrito = new Burrito("veggie", "quinoa", ["corn", "hot sauce"]);
 // ADD CODE
-firstBurrito.changeProtein();
+firstBurrito.changeProtein("tofu");
 console.log(firstBurrito);
 
-firstBurrito.addTopping();
+firstBurrito.addTopping("black olives");
 console.log(firstBurrito);
 
-secondBurrito.addTopping();
+secondBurrito.addTopping("hot sauce");
 console.log(secondBurrito);
