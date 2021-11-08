@@ -31,7 +31,7 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- ![Screenshot](Screen Shot 2021-11-08 at 1.28.55 PM)
+- ![Screenshot](Screen Shot 2021-11-08 at 1.28.55 PM Medium.png)
 - ![Screenshot](Screen Shot 2021-11-08 at 1.29.03 PM)
 - ![Screenshot](Screen Shot 2021-11-08 at 1.29.13 PM)
 
