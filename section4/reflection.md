@@ -39,6 +39,6 @@
 
 6. What questions do you still have about classes and/or Objects?
   - I guess I'm just confused on why they would log the way they do... It doesn't really make sense yet applying them to real-world situations when they print like the below:
-  ![Screenshot]("Screen Shot 2021-11-02 at 10 22 25 AM" src="https://user-images.githubusercontent.com/88151743/141192464-2ade7959-acbe-48dc-8ecd-b9abf6f8577f.png")
+  ![Screenshot]("https://user-images.githubusercontent.com/88151743/141192464-2ade7959-acbe-48dc-8ecd-b9abf6f8577f.png")
 
   - Also, how can you add multiple strings when calling a method? I assume this is just through an array - how does the computer know it's inputted as an array? Because if it isn't, it seems it would log as an error...
