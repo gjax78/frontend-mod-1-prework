@@ -67,9 +67,9 @@ console.log("Happy Birthday " + names[i] + "!");
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
 
 for (var i = 0; i < ages.length; i++) {
-if (ages[i] <= 17) {
-  console.log("Oh no, you can't vote quite yet.");
+  if (ages[i] <= 17) {
+    console.log("Oh no, you can't vote quite yet.");
 } else if (ages[i] >= 18) {
-  console.log("Make sure you get out and vote!");
-}
+    console.log("Make sure you get out and vote!");
+  }
 }
