@@ -14,12 +14,13 @@ class Tweet {
     this.content = content;
     this.timeStamp = timeStamp;
     this.numberOfLikes = numberOfLikes;
-    this.comments = [comments]; //NEEEEEEED the array [] syntax for it to work here!!!!!
-    // only way I figured this out is because .push only works as a function on an array,
-    //so I thought, "how can I make all the comments below an array even if there's only one??"
+    this.comments = [comments]; //Need the array [] syntax for it to work here!
+    //I figured this out is because .push only works as a function on an array,
+    //so I thought - how can I make all the comments below an array even if there's only one?
   }
   incrementLikes(newLikes) {
-    this.numberOfLikes += newLikes; //why does ++ not work here?!?! spent so long on this
+    this.numberOfLikes += newLikes; //this.numberOfLikes++ increments it by 1, but what if the Tweet
+    //got more than 1 like?
   }
   addComments(newComments) {
     this.comments.push(newComments);
@@ -41,7 +42,7 @@ oneTweet.addComments("Just wait til you get that salary!!")
 console.log(oneTweet);
 
 twoTweet.incrementLikes(1);
-twoTweet.addComments("Wow would you look at that?", "Ugh noooo!"); // why does only the first string get logged???
+twoTweet.addComments(["Wow would you look at that?", "Ugh noooo!"]);
 console.log(twoTweet);
 
 threeTweet.incrementLikes(2);
@@ -55,9 +56,9 @@ fiveTweet.incrementLikes(4);
 fiveTweet.addComments("Ahh! I want to go... where are you headed?")
 console.log(fiveTweet);
 
-sixTweet.incrementLikes(-1);
+sixTweet.incrementLikes(-1);// wanted to play around with subtraction here as if someone unliked their tweet
 sixTweet.addComments("dude same, I am not ready for work tomorrow") //because there is no comment on the original tweet,
-// but one was added later... it shows as undefined, and then the added comment. Is this correct?
+// but one was added later... it shows as undefined, and then the added comment.
 console.log(sixTweet);
 
 sevenTweet.incrementLikes(3);
