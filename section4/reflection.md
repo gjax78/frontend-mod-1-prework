@@ -12,19 +12,19 @@
 4. For each set of data, would an array or object be better to store it? Explain your choice.
 
   * List of all of the students in class
-    - Array:
+    - Array: You can have multiple strings listed here
   * List of states and their capitals
-    - Object:
+    - Object: capitals would be a property of the state
   * List of things to pack for vacation
-    - Array:
+    - Array: You can have multiple strings
   * Names of all the Instagram accounts I follow
-    - Array:
+    - Array: You can have multiple strings and "accounts" would be the variable
   * List of student names and their cohort
-    - Object:
+    - Object: The variable would be "Turing" and there could be multiple key value pairs such as student names, cohort, program, etc.
   * Ingredients and amount of each ingredient to bake a cake
-    - Object:
+    - Object: Again, lots of related data pertaining to one thing so object would be best.
   * All my favorite restaurants
-    - Array:
+    - Array: This would be a simple list of multiple strings.
 
 5. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
   - In the Target app, I would think the shopping cart would be similar to a transaction item object. I've left a (non-dynamic) example below:
@@ -39,6 +39,6 @@
 
 6. What questions do you still have about classes and/or Objects?
   - I guess I'm just confused on why they would log the way they do... It doesn't really make sense yet applying them to real-world situations when they print like the below:
-  Screen Shot 2021-11-02 at 10.22.25 AM
+  ![Screenshot]("Screen Shot 2021-11-02 at 10 22 25 AM" src="https://user-images.githubusercontent.com/88151743/141192464-2ade7959-acbe-48dc-8ecd-b9abf6f8577f.png")
 
-  - Also, how can you add multiple strings when calling a method? Maybe my verbiage is wrong here because I tried to Google it a couple ways and couldn't find the answer. (example in the tweet.js exercise) Surely, people comment on tweets more than just once - how would multiple comments get added to the tweet?
+  - Also, how can you add multiple strings when calling a method? I assume this is just through an array - how does the computer know it's inputted as an array? Because if it isn't, it seems it would log as an error...
